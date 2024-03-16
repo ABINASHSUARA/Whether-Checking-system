@@ -14,50 +14,7 @@
         The weather of {{ obj }} is
     </header>
 
-    <!--<table border="3px">
-        <tr><th>username</th>
-            <th>city</th>
-            <th>temperature</th>
-            <th>humidity</th>
-            <th>weather</th>
-            <th>speed</th>
-            <th>timestamp</th>
-        </tr>
-
-        <tr><th>{{obj.username}}</th>
-            <th>{{obj.city}}</th>
-            <th>{{obj.temperature}}</th>
-            <th>{{obj.humidity}}</th>
-            <th>{{obj.weather}}</th>
-            <th>{{obj.speed}}</th>
-            <th>{{obj.timestamp}}</th>
-        </tr>
-
-
-    </table>
-
-
-    <table border="3px" style="width: 100%; border-collapse: collapse;">
-        <tr style="background-color: #f2f2f2;">
-            <th>Username</th>
-            <th>City</th>
-            <th>Temperature</th>
-            <th>Humidity</th>
-            <th>Weather</th>
-            <th>Speed</th>
-            <th>Timestamp</th>
-        </tr>
-        <tr style="background-color: #ffffff;">
-            <td>{{obj.username}}</td>
-            <td>{{obj.city}}</td>
-            <td>{{obj.temperature}}</td>
-            <td>{{obj.humidity}}</td>
-            <td>{{obj.weather}}</td>
-            <td>{{obj.speed}}</td>
-            <td>{{obj.timestamp}}</td>
-        </tr>
-    </table>
--->
+  
 
 <div style="overflow-x: auto;">
     <table border="3px" style="width: max-content; border-collapse: collapse; margin: 0 auto;">
@@ -84,9 +41,7 @@
 
 
 
-   <!-- <div>
-        to check your search<a href="{% url 'user_history' %}">history</a> click here......
-    </div>-->
+   
 
     <footer class="fixed-bottom bg-light p-3">
         <div class="container text-center">
@@ -102,42 +57,7 @@
     
 
 {% else %}
-<!--<form method="POST">
-    {% csrf_token %}
-    <label id="city">CITY:</label>
-    <input type="text" id="city" name="city">
-    <input type="submit" value="confirm">
-</form>
 
-
-<div class="card">
-    <div class="card-body">
-        <form method="POST">
-            {% csrf_token %}
-            <div class="form-group">
-                <label for="city">CITY:</label>
-                <input type="text" class="form-control" id="city" name="city">
-            </div>
-            <button type="submit" class="btn btn-primary">Confirm</button>
-        </form>
-    </div>
-</div>
-
-<center>
-<div class="card">
-    <div class="card-body">
-        <form method="POST" class="form-inline">
-            {% csrf_token %}
-            <div class="form-group mb-2">
-                
-                <label for="city" class="sr-only">CITY:</label>
-                <input type="text" class="form-control form-control-sm" id="city" name="city" placeholder="City">
-            </div>
-            <button type="submit" class="btn btn-primary btn-sm ml-2">Confirm</button>
-        </form>
-    </div>
-</div>
-</center>-->
 
 <div class="container">
     <div class="row justify-content-center">
